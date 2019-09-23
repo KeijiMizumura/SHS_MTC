@@ -1,0 +1,57 @@
+.page_title{
+    margin-top: 20px; 
+    padding: 25px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page_title h1{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.page_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.page_content .image_container{
+    width: 500px;
+    height: 400px;
+}
+
+.page_content .image_container img{
+    width: 500px;
+    height: 400px;
+}
+
+.page_content .desc_container{
+    padding: 30px;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.3em;
+    text-indent: 1.5em;
+}
+
+.page_facilities{
+    margin-top: 35px;
+}
+
+.page_facilities .facilities_name{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px 0;
+}
+
+.page_facilities .gallery{
+    
+}
+
+.page_facilities .gallery img{
+    height: 320px;
+    transition: transform 300ms;
+}
+
+.page_facilities .gallery img:hover{
+    position: relative;
+    transform: scale(1.2);
+    box-shadow: 3px 2px 5px #555;
+}
