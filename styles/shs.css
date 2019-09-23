@@ -1,0 +1,72 @@
+.page_title{
+    margin-top: 20px; 
+    padding: 25px 0;
+}
+
+.page_title h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.page_content{
+    margin-top: 20px;
+    display: grid;
+    grid: auto auto auto;
+    grid-gap: 20px;
+}
+
+/* GRIDS */
+
+.page_content .strand_box{
+    grid-column: 1/2;
+    width: 250px;
+}
+
+.page_content .strand_box h2{
+    background-color: var(--main-color);
+    color: #fff;
+    text-align: center;
+    padding: 12px;
+}
+
+.page_content .strand_box nav{
+    background-color: rgb(197,224,180);
+}
+
+.page_content .strand_box ul{
+    color: var(--main-color-light);
+    padding-left: 25px;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.page_content .strand_box ul li{
+    padding: 15px 0;
+}
+
+.page_content .strand_box ul li a{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--main-color-light);
+}
+
+
+.page_content .picture_box{
+    grid-column: 2/3;
+}
+
+.page_content .picture_box img{
+    height: 600px;
+}
+
+.page_content .desc_box{
+    grid-column: 3/4;
+
+}
+
+.page_content .desc_box p{
+    text-indent: 1.5em;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 1.3em;
+}
